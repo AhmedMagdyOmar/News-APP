@@ -1,0 +1,43 @@
+//
+//  Lable+.swift
+//  Naqliah Client
+//
+//  Created by Mohamed Akl on 09/11/2021.
+//  Copyright © 2021 Mohamed Akl. All rights reserved.
+//
+
+import Foundation
+import UIKit
+extension UILabel{
+   
+    convenience init(text:String, font:UIFont,textColor: UIColor){
+        self.init(frame:.zero)
+        self.font = font
+        self.text = text
+        self.textColor  = textColor
+        
+    }
+    var  textCenter:UILabel {
+       textAlignment = .center
+        return self
+    }
+    var lineZero :UILabel {
+        numberOfLines = 0
+        return self
+    }
+    
+    var centerZero:UILabel {
+         textAlignment = .center
+        numberOfLines = 0
+        return self
+    }
+    
+}
+
+extension UILabel {
+    func underLine(){
+        let underlineAttribute = [NSAttributedString.Key.underlineStyle: NSUnderlineStyle.thick.rawValue]
+        let underlineAttributedString = NSAttributedString(string: self.text ?? "", attributes: underlineAttribute)
+        self.attributedText = underlineAttributedString
+    }
+}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CountryCollectionViewCell" customModule="NewsApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="118" height="114"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="118" height="114"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bHR-yk-bMd">
+                        <rect key="frame" x="5" y="10" width="108" height="94"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="h8i-Bf-j7W">
+                                <rect key="frame" x="29" y="7" width="50" height="80.5"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Holand" translatesAutoresizingMaskIntoConstraints="NO" id="yRL-tf-M8e">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Crk-Vy-bwj"/>
+                                            <constraint firstAttribute="width" constant="50" id="sHx-pg-fKC"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VjS-n0-Tgc">
+                                        <rect key="frame" x="4.5" y="60" width="41.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="h8i-Bf-j7W" firstAttribute="centerY" secondItem="bHR-yk-bMd" secondAttribute="centerY" id="GJl-5g-9GT"/>
+                            <constraint firstItem="h8i-Bf-j7W" firstAttribute="centerX" secondItem="bHR-yk-bMd" secondAttribute="centerX" id="dNH-dl-Rd5"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                <real key="value" value="40"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="bHR-yk-bMd" secondAttribute="trailing" constant="5" id="CBx-6y-TV6"/>
+                <constraint firstItem="bHR-yk-bMd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="Wry-Da-aeN"/>
+                <constraint firstItem="bHR-yk-bMd" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="gy5-jQ-6SG"/>
+                <constraint firstAttribute="bottom" secondItem="bHR-yk-bMd" secondAttribute="bottom" constant="10" id="iUD-0A-eSn"/>
+            </constraints>
+            <size key="customSize" width="118" height="114"/>
+            <connections>
+                <outlet property="containerView" destination="bHR-yk-bMd" id="cGn-Lu-V99"/>
+                <outlet property="countryImageView" destination="yRL-tf-M8e" id="Jhf-YD-jk2"/>
+                <outlet property="countryNameLabel" destination="VjS-n0-Tgc" id="50G-S8-SVr"/>
+            </connections>
+            <point key="canvasLocation" x="-24.637681159420293" y="22.767857142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Holand" width="254" height="198"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
