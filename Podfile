@@ -21,7 +21,6 @@ target 'NewsApp' do
   pod 'Firebase'
   pod 'Firebase/Messaging'
   pod 'Firebase/Analytics'
-  pod 'Socket.IO-Client-Swift', '~> 12'
 
   target 'NewsAppTests' do
     inherit! :search_paths

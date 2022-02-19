@@ -76,19 +76,6 @@
 		E270502027BAAF22008CFF35 /* Notification+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2704F9A27BAAF21008CFF35 /* Notification+.swift */; };
 		E270502127BAAF22008CFF35 /* EmojiExtenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2704F9B27BAAF21008CFF35 /* EmojiExtenstions.swift */; };
 		E270502227BAAF22008CFF35 /* CATransition+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2704F9C27BAAF21008CFF35 /* CATransition+.swift */; };
-		E270502327BAAF22008CFF35 /* SocketEcho.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2704F9E27BAAF21008CFF35 /* SocketEcho.swift */; };
-		E270502427BAAF22008CFF35 /* EventFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2704FA027BAAF21008CFF35 /* EventFormatter.swift */; };
-		E270502527BAAF22008CFF35 /* SocketIOChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2704FA227BAAF21008CFF35 /* SocketIOChannel.swift */; };
-		E270502627BAAF22008CFF35 /* IChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2704FA327BAAF21008CFF35 /* IChannel.swift */; };
-		E270502727BAAF22008CFF35 /* IPrivateChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2704FA427BAAF21008CFF35 /* IPrivateChannel.swift */; };
-		E270502827BAAF22008CFF35 /* IPresenceChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2704FA527BAAF21008CFF35 /* IPresenceChannel.swift */; };
-		E270502927BAAF22008CFF35 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2704FA627BAAF21008CFF35 /* Channel.swift */; };
-		E270502A27BAAF22008CFF35 /* SocketIOPresenceChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2704FA727BAAF21008CFF35 /* SocketIOPresenceChannel.swift */; };
-		E270502B27BAAF22008CFF35 /* SocketIOPrivateChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2704FA827BAAF21008CFF35 /* SocketIOPrivateChannel.swift */; };
-		E270502C27BAAF22008CFF35 /* IConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2704FAA27BAAF21008CFF35 /* IConnector.swift */; };
-		E270502D27BAAF22008CFF35 /* SocketIOConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2704FAB27BAAF21008CFF35 /* SocketIOConnector.swift */; };
-		E270502E27BAAF22008CFF35 /* SocketLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2704FAC27BAAF21008CFF35 /* SocketLayer.swift */; };
-		E270502F27BAAF22008CFF35 /* Echo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2704FAD27BAAF21008CFF35 /* Echo.swift */; };
 		E270503027BAAF22008CFF35 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2704FAF27BAAF21008CFF35 /* AuthModel.swift */; };
 		E270503127BAAF22008CFF35 /* AppErrorViewsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2704FB127BAAF21008CFF35 /* AppErrorViewsProtocol.swift */; };
 		E270503227BAAF22008CFF35 /* HandleResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2704FB227BAAF21008CFF35 /* HandleResponseError.swift */; };
@@ -248,19 +235,6 @@
 		E2704F9A27BAAF21008CFF35 /* Notification+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Notification+.swift"; sourceTree = "<group>"; };
 		E2704F9B27BAAF21008CFF35 /* EmojiExtenstions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiExtenstions.swift; sourceTree = "<group>"; };
 		E2704F9C27BAAF21008CFF35 /* CATransition+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CATransition+.swift"; sourceTree = "<group>"; };
-		E2704F9E27BAAF21008CFF35 /* SocketEcho.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEcho.swift; sourceTree = "<group>"; };
-		E2704FA027BAAF21008CFF35 /* EventFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventFormatter.swift; sourceTree = "<group>"; };
-		E2704FA227BAAF21008CFF35 /* SocketIOChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOChannel.swift; sourceTree = "<group>"; };
-		E2704FA327BAAF21008CFF35 /* IChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IChannel.swift; sourceTree = "<group>"; };
-		E2704FA427BAAF21008CFF35 /* IPrivateChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPrivateChannel.swift; sourceTree = "<group>"; };
-		E2704FA527BAAF21008CFF35 /* IPresenceChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPresenceChannel.swift; sourceTree = "<group>"; };
-		E2704FA627BAAF21008CFF35 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
-		E2704FA727BAAF21008CFF35 /* SocketIOPresenceChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOPresenceChannel.swift; sourceTree = "<group>"; };
-		E2704FA827BAAF21008CFF35 /* SocketIOPrivateChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOPrivateChannel.swift; sourceTree = "<group>"; };
-		E2704FAA27BAAF21008CFF35 /* IConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IConnector.swift; sourceTree = "<group>"; };
-		E2704FAB27BAAF21008CFF35 /* SocketIOConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOConnector.swift; sourceTree = "<group>"; };
-		E2704FAC27BAAF21008CFF35 /* SocketLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketLayer.swift; sourceTree = "<group>"; };
-		E2704FAD27BAAF21008CFF35 /* Echo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Echo.swift; sourceTree = "<group>"; };
 		E2704FAF27BAAF21008CFF35 /* AuthModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
 		E2704FB127BAAF21008CFF35 /* AppErrorViewsProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppErrorViewsProtocol.swift; sourceTree = "<group>"; };
 		E2704FB227BAAF21008CFF35 /* HandleResponseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandleResponseError.swift; sourceTree = "<group>"; };
@@ -581,50 +555,6 @@
 			path = Pickers;
 			sourceTree = "<group>";
 		};
-		E2704F9D27BAAF21008CFF35 /* Socket  */ = {
-			isa = PBXGroup;
-			children = (
-				E2704F9E27BAAF21008CFF35 /* SocketEcho.swift */,
-				E2704F9F27BAAF21008CFF35 /* utils */,
-				E2704FA127BAAF21008CFF35 /* channel */,
-				E2704FA927BAAF21008CFF35 /* connector */,
-				E2704FAC27BAAF21008CFF35 /* SocketLayer.swift */,
-				E2704FAD27BAAF21008CFF35 /* Echo.swift */,
-			);
-			path = "Socket ";
-			sourceTree = "<group>";
-		};
-		E2704F9F27BAAF21008CFF35 /* utils */ = {
-			isa = PBXGroup;
-			children = (
-				E2704FA027BAAF21008CFF35 /* EventFormatter.swift */,
-			);
-			path = utils;
-			sourceTree = "<group>";
-		};
-		E2704FA127BAAF21008CFF35 /* channel */ = {
-			isa = PBXGroup;
-			children = (
-				E2704FA227BAAF21008CFF35 /* SocketIOChannel.swift */,
-				E2704FA327BAAF21008CFF35 /* IChannel.swift */,
-				E2704FA427BAAF21008CFF35 /* IPrivateChannel.swift */,
-				E2704FA527BAAF21008CFF35 /* IPresenceChannel.swift */,
-				E2704FA627BAAF21008CFF35 /* Channel.swift */,
-				E2704FA727BAAF21008CFF35 /* SocketIOPresenceChannel.swift */,
-				E2704FA827BAAF21008CFF35 /* SocketIOPrivateChannel.swift */,
-			);
-			path = channel;
-			sourceTree = "<group>";
-		};
-		E2704FA927BAAF21008CFF35 /* connector */ = {
-			isa = PBXGroup;
-			children = (
-				E2704FAA27BAAF21008CFF35 /* IConnector.swift */,
-				E2704FAB27BAAF21008CFF35 /* SocketIOConnector.swift */,
-			);
-			path = connector;
-			sourceTree = "<group>";
-		};
 		E2704FAE27BAAF21008CFF35 /* App Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -889,7 +819,6 @@
 				E2704FC827BAAF21008CFF35 /* Localization */,
 				E2704FC627BAAF21008CFF35 /* LocationsManager */,
 				E2704FB827BAAF21008CFF35 /* Network */,
-				E2704F9D27BAAF21008CFF35 /* Socket  */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -1212,20 +1141,15 @@
 				E270501627BAAF22008CFF35 /* PhotoServices.swift in Sources */,
 				E270503827BAAF22008CFF35 /* SwiftyJSON.swift in Sources */,
 				E29A2DD727BC3F0C00A014EC /* Controller+Socila.swift in Sources */,
-				E270502727BAAF22008CFF35 /* IPrivateChannel.swift in Sources */,
 				E270501527BAAF22008CFF35 /* UIVideoPickerViewController.swift in Sources */,
 				E270501827BAAF22008CFF35 /* UITextViewExtenstion.swift in Sources */,
 				E270501327BAAF22008CFF35 /* DatePickerViewController.swift in Sources */,
 				E270504427BAAF22008CFF35 /* UIViewController+Extension.swift in Sources */,
 				E270501027BAAF22008CFF35 /* Error+.swift in Sources */,
 				E270507127BAE84D008CFF35 /* HomeRouter.swift in Sources */,
-				E270502B27BAAF22008CFF35 /* SocketIOPrivateChannel.swift in Sources */,
 				E270501B27BAAF22008CFF35 /* DispatchExtenstion.swift in Sources */,
-				E270502527BAAF22008CFF35 /* SocketIOChannel.swift in Sources */,
 				E270503D27BAAF22008CFF35 /* Network.swift in Sources */,
 				E2704F2727BAAE95008CFF35 /* AppDelegate.swift in Sources */,
-				E270502E27BAAF22008CFF35 /* SocketLayer.swift in Sources */,
-				E270502F27BAAF22008CFF35 /* Echo.swift in Sources */,
 				E2704FE927BAAF22008CFF35 /* UITableView+.swift in Sources */,
 				E270503427BAAF22008CFF35 /* LoaderViewProtocol.swift in Sources */,
 				E270500B27BAAF22008CFF35 /* LoaderExtentions.swift in Sources */,
@@ -1235,7 +1159,6 @@
 				E295F74027BD08A10084DB27 /* ArticleTableViewCellModel.swift in Sources */,
 				E295F74B27BD1B7F0084DB27 /* CountriesAndCategoriesSelectionViewController.swift in Sources */,
 				E295F74F27BD1FBD0084DB27 /* CountryCollectionViewCell.swift in Sources */,
-				E270502327BAAF22008CFF35 /* SocketEcho.swift in Sources */,
 				E2704FF527BAAF22008CFF35 /* CGFloat+.swift in Sources */,
 				E2704FEF27BAAF22008CFF35 /* CALayer+.swift in Sources */,
 				E270501927BAAF22008CFF35 /* Optional+.swift in Sources */,
@@ -1244,7 +1167,6 @@
 				E270501227BAAF22008CFF35 /* PickerViewController.swift in Sources */,
 				E270504527BAAF22008CFF35 /* L012Localizer.swift in Sources */,
 				E270500D27BAAF22008CFF35 /* Uilabel+.swift in Sources */,
-				E270502927BAAF22008CFF35 /* Channel.swift in Sources */,
 				E2704FF027BAAF22008CFF35 /* Int+.swift in Sources */,
 				E270501A27BAAF22008CFF35 /* UITextField+.swift in Sources */,
 				E2704FEE27BAAF22008CFF35 /* ViewController+.swift in Sources */,
@@ -1253,21 +1175,16 @@
 				E270503127BAAF22008CFF35 /* AppErrorViewsProtocol.swift in Sources */,
 				E2704FFF27BAAF22008CFF35 /* String+.swift in Sources */,
 				E2704FFA27BAAF22008CFF35 /* SwiftUi.swift in Sources */,
-				E270502C27BAAF22008CFF35 /* IConnector.swift in Sources */,
 				E270501C27BAAF22008CFF35 /* UIImage+.swift in Sources */,
 				E270504927BAAF22008CFF35 /* AlertViewHandler.swift in Sources */,
 				E2704FEC27BAAF22008CFF35 /* DoubleExtenstion.swift in Sources */,
 				E270500A27BAAF22008CFF35 /* LoadingReusableView.swift in Sources */,
-				E270502627BAAF22008CFF35 /* IChannel.swift in Sources */,
 				E2704FE727BAAF21008CFF35 /* CustomSlider.swift in Sources */,
-				E270502427BAAF22008CFF35 /* EventFormatter.swift in Sources */,
-				E270502D27BAAF22008CFF35 /* SocketIOConnector.swift in Sources */,
 				E270500427BAAF22008CFF35 /* CGSize+.swift in Sources */,
 				E270504227BAAF22008CFF35 /* Configuration.swift in Sources */,
 				E270500F27BAAF22008CFF35 /* UICollectionView+.swift in Sources */,
 				E2704FF827BAAF22008CFF35 /* Time+.swift in Sources */,
 				E270504027BAAF22008CFF35 /* URLRequestConvertible.swift in Sources */,
-				E270502827BAAF22008CFF35 /* IPresenceChannel.swift in Sources */,
 				E270500C27BAAF22008CFF35 /* UIButton+.swift in Sources */,
 				E2704FFB27BAAF22008CFF35 /* FirebaseManger.swift in Sources */,
 				E2704FF727BAAF22008CFF35 /* UIFont+.swift in Sources */,
@@ -1299,7 +1216,6 @@
 				E270505427BAAF22008CFF35 /* MainButton.swift in Sources */,
 				E270506C27BAE766008CFF35 /* ArticleHomePresenter.swift in Sources */,
 				E2704FE827BAAF22008CFF35 /* CollectionView+.swift in Sources */,
-				E270502A27BAAF22008CFF35 /* SocketIOPresenceChannel.swift in Sources */,
 				E270503727BAAF22008CFF35 /* AppResponse.swift in Sources */,
 				E2059D1127C13FA70025DDDB /* CategoryCellViewModel.swift in Sources */,
 			);
